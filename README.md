@@ -4,7 +4,7 @@
 
 # 🚗 Car Rental Management System
 
-### 汽车租赁管理系统 — plataforma inteligente de renta de vehículos 🚀
+### plataforma inteligente de renta de vehículos 🚀
 
 <p align="center">
   <b>Car Rental Management System</b> es un sistema desarrollado para automatizar la gestión de renta de vehículos, permitiendo administrar clientes, información de alquileres y operaciones administrativas desde una plataforma moderna y eficiente.
@@ -190,7 +190,7 @@ Este módulo funciona como administrador principal del sistema.
 # 📂 Estructura del proyecto
 
 ```bash
-Car_rental_management_system/
+PlataformaInteligenteRentaVehiculos/
 │
 ├── src/                      # Código fuente Java
 ├── controllers/              # Controladores
@@ -221,7 +221,7 @@ Car_rental_management_system/
 ## 1️⃣ Clonar repositorio
 
 ```bash
-git clone https://github.com/isairey/Car_rental_management_system.git
+git clone https://github.com/isairey/PlataformaInteligenteRentaVehiculos.git
 ```
 
 ---
@@ -301,39 +301,7 @@ Main.java
 - Historial de operaciones
 - Confirmaciones automáticas
 
----
 
-# 📸 Vista previa
-
-## 🖥️ Interfaces del sistema
-
-<div align="center">
-
-### 🚗 Dashboard principal
-![Dashboard](https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?q=80&w=1200&auto=format&fit=crop)
-
-### 🔐 Inicio de sesión
-![Login](https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=1200&auto=format&fit=crop)
-
-### 🚘 Gestión de vehículos
-![Cars](https://images.unsplash.com/photo-1503376780353-7e6692767b70?q=80&w=1200&auto=format&fit=crop)
-
-### 📋 Gestión de alquileres
-![Rental](https://images.unsplash.com/photo-1550355291-bbee04a92027?q=80&w=1200&auto=format&fit=crop)
-
-### 👥 Administración de clientes
-![Users](https://images.unsplash.com/photo-1521737604893-d14cc237f11d?q=80&w=1200&auto=format&fit=crop)
-
-### 📊 Panel administrativo
-![Admin](https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=1200&auto=format&fit=crop)
-
-### 📅 Contratos de renta
-![Contracts](https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?q=80&w=1200&auto=format&fit=crop)
-
-### ⚙️ Configuración del sistema
-![Settings](https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?q=80&w=1200&auto=format&fit=crop)
-
-</div>
 
 ---
 
