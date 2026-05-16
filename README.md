@@ -4,7 +4,7 @@
 
 # 🚗 Car Rental Management System
 
-### plataforma inteligente de renta de vehículos 🚀
+### Plataforma inteligente de renta de vehículos 🚀
 
 <p align="center">
   <b>Car Rental Management System</b> es un sistema desarrollado para automatizar la gestión de renta de vehículos, permitiendo administrar clientes, información de alquileres y operaciones administrativas desde una plataforma moderna y eficiente.
