@@ -1,17 +1,426 @@
-# Car_rental_management_system
-汽车租赁管理系统
+<div align="center">
 
-* 随着汽车工业的发展和汽车在现实生活中的普及，汽车租赁成为近年来兴起的一个新行业。为规范管理和经营行为，减少经营成本，提高工作效率，开发汽车租赁管理系统变得十分有必要。
-* 以汽车租赁应用为背景，通过研究当前汽车租赁系统的管理现状、存在问题以及现实需求，设计一个针对汽车租赁管理工作的管理信息系统。该系统能够提供较为完备的功能，对于提高工作效率、加快汽车租赁管理的自动化具有较为重要的意义。
-* 本次汽车租赁管理系统要求实现的基本功能如下：
+<img width="220" src="https://cdn-icons-png.flaticon.com/512/744/744465.png" />
 
-1. 登录功能：登录系统即身份验证登录，可以实现多个管理员账号密码登录，登录时根据输入的用户账号密码信息与存储的信息进行验证，以判断能否正确登录。
+# 🚗 Car Rental Management System
 
-2. 租赁信息录入功能：管理员用户通过输入租赁的相关信息，并设置添加校验，将数据写入到数据库保存。
+### 汽车租赁管理系统 — plataforma inteligente de renta de vehículos 🚀
 
-3. 租赁信息修改功能：管理员用户可以对已有的租赁信息进行修改，并设置修改校验，将信息从数据库更新。
+<p align="center">
+  <b>Car Rental Management System</b> es un sistema desarrollado para automatizar la gestión de renta de vehículos, permitiendo administrar clientes, información de alquileres y operaciones administrativas desde una plataforma moderna y eficiente.
+</p>
 
-4. 租赁信息删除功能：管理员用户可以根据情况，将已有的租赁信息从数据库中删除。 
+<p align="center">
+  <img src="https://img.shields.io/badge/CarRental-ManagementSystem-blue?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Java-DesktopApplication-orange?style=for-the-badge&logo=openjdk&logoColor=white">
+  <img src="https://img.shields.io/badge/MySQL-Database-4479A1?style=for-the-badge&logo=mysql&logoColor=white">
+  <img src="https://img.shields.io/badge/OpenSource-Academic-success?style=for-the-badge">
+</p>
 
-5. 租赁信息查询功能：根据输入的关键字，将数据库租赁信息以列表标签的形式展现。
+<p align="center">
+  <a href="#-acerca-del-proyecto">Acerca</a> •
+  <a href="#-módulos-del-sistema">Módulos</a> •
+  <a href="#-características">Características</a> •
+  <a href="#-tecnologías-utilizadas">Tecnologías</a> •
+  <a href="#-vista-previa">Vista previa</a>
+</p>
 
+</div>
+
+---
+
+# 🌌 Acerca del proyecto
+
+**Car Rental Management System** es una plataforma enfocada en la administración de alquileres de automóviles, diseñada para optimizar la gestión de clientes, vehículos y contratos mediante procesos automatizados.
+
+Con el crecimiento de la industria automotriz y la popularidad de los servicios de alquiler de vehículos, este sistema fue desarrollado para:
+
+- 🚗 Gestionar vehículos
+- 👥 Administrar clientes
+- 📅 Controlar alquileres
+- 📋 Gestionar contratos
+- 💳 Administrar pagos
+- 📊 Supervisar operaciones
+- 🔐 Gestionar accesos
+- 🌐 Automatizar procesos de renta
+
+---
+
+# ✨ Características
+
+## 🚘 Gestión de vehículos
+
+- 🚗 Registro de automóviles
+- 📍 Gestión de disponibilidad
+- 📋 Información detallada
+- 💰 Configuración de tarifas
+- ⚙️ Administración de flota
+
+---
+
+## 👥 Gestión de usuarios
+
+- 👤 Registro de clientes
+- 🔐 Inicio de sesión
+- 📄 Gestión de perfiles
+- ⚡ Administración centralizada
+- 📊 Historial de alquileres
+
+---
+
+## 📅 Sistema de alquileres
+
+- 📆 Registro de rentas
+- 📋 Gestión de contratos
+- 💳 Administración de pagos
+- ⚡ Confirmaciones rápidas
+- 📄 Historial de operaciones
+
+---
+
+## 📊 Panel administrativo
+
+- 📈 Dashboard administrativo
+- 🚗 Gestión de vehículos
+- 👥 Administración de clientes
+- 📅 Supervisión de contratos
+- 🔐 Gestión de permisos
+
+---
+
+# 👨‍💼 Módulos del sistema
+
+## 🚗 Vehicle Module
+
+Este módulo administra todos los automóviles registrados dentro del sistema.
+
+### Funcionalidades:
+
+- ➕ Registro de vehículos
+- 📍 Gestión de disponibilidad
+- 💰 Configuración de tarifas
+- 📋 Información detallada
+- ⚙️ Administración de flota
+
+---
+
+## 👤 Customer Module
+
+Este módulo es utilizado por clientes que desean rentar vehículos.
+
+### Funcionalidades:
+
+- 🔍 Buscar automóviles
+- 📋 Consultar información
+- 📅 Registrar alquileres
+- 💳 Gestión de pagos
+- 📄 Historial de rentas
+
+---
+
+## 🛠️ Admin Module
+
+Este módulo funciona como administrador principal del sistema.
+
+### Funcionalidades:
+
+- 👥 Gestión de usuarios
+- 🚗 Supervisión de vehículos
+- 📊 Dashboard administrativo
+- 📅 Administración de contratos
+- 🔐 Gestión general
+
+---
+
+# 🛠️ Tecnologías utilizadas
+
+## 🎨 Frontend / UI
+
+<p>
+  <img src="https://skillicons.dev/icons?i=java" />
+</p>
+
+- Java Swing
+- Interfaces gráficas
+- Diseño de escritorio
+- Arquitectura MVC
+
+---
+
+## ⚙️ Backend
+
+<p>
+  <img src="https://skillicons.dev/icons?i=java" />
+</p>
+
+- Java
+- Programación orientada a objetos
+- Gestión de sesiones
+- Arquitectura modular
+
+---
+
+## 🗄️ Base de datos
+
+<p>
+  <img src="https://skillicons.dev/icons?i=mysql" />
+</p>
+
+- MySQL
+- Relaciones SQL
+- Persistencia de datos
+- Gestión vehicular
+
+---
+
+## 🧰 Herramientas
+
+<p>
+  <img src="https://skillicons.dev/icons?i=git,github,vscode,idea" />
+</p>
+
+- Git
+- GitHub
+- IntelliJ IDEA
+- Visual Studio Code
+- NetBeans
+
+---
+
+# 📂 Estructura del proyecto
+
+```bash
+Car_rental_management_system/
+│
+├── src/                      # Código fuente Java
+├── controllers/              # Controladores
+├── models/                   # Modelos de datos
+├── views/                    # Interfaces gráficas
+├── database/                 # Scripts SQL
+├── assets/                   # Recursos multimedia
+├── Main.java                 # Punto de entrada
+├── README.md
+└── LICENSE
+```
+
+---
+
+# ⚡ Instalación
+
+## 📋 Requisitos
+
+- Java JDK 8+
+- MySQL
+- IntelliJ IDEA / NetBeans
+- Navegador moderno
+
+---
+
+# 🚀 Configuración del proyecto
+
+## 1️⃣ Clonar repositorio
+
+```bash
+git clone https://github.com/isairey/Car_rental_management_system.git
+```
+
+---
+
+## 2️⃣ Crear base de datos
+
+Crear base:
+
+```bash
+car_rental_management
+```
+
+---
+
+## 3️⃣ Importar SQL
+
+Importar:
+
+```bash
+database/car_rental_management.sql
+```
+
+---
+
+## 4️⃣ Configurar conexión
+
+Editar archivo:
+
+```bash
+DatabaseConnection.java
+```
+
+Agregar:
+
+```java
+String url = "jdbc:mysql://localhost:3306/car_rental_management";
+String user = "root";
+String password = "";
+```
+
+---
+
+## 5️⃣ Ejecutar proyecto
+
+Iniciar aplicación desde:
+
+```bash
+Main.java
+```
+
+---
+
+# 📊 Funcionalidades principales
+
+## 🚗 Gestión de vehículos
+
+- Registro de automóviles
+- Administración de flota
+- Gestión de disponibilidad
+- Configuración de tarifas
+
+---
+
+## 👥 Administración de usuarios
+
+- Registro y autenticación
+- Gestión de perfiles
+- Roles administrativos
+- Historial de actividades
+
+---
+
+## 📅 Gestión de alquileres
+
+- Registro de contratos
+- Gestión de pagos
+- Historial de operaciones
+- Confirmaciones automáticas
+
+---
+
+# 📸 Vista previa
+
+## 🖥️ Interfaces del sistema
+
+<div align="center">
+
+### 🚗 Dashboard principal
+![Dashboard](https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?q=80&w=1200&auto=format&fit=crop)
+
+### 🔐 Inicio de sesión
+![Login](https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=1200&auto=format&fit=crop)
+
+### 🚘 Gestión de vehículos
+![Cars](https://images.unsplash.com/photo-1503376780353-7e6692767b70?q=80&w=1200&auto=format&fit=crop)
+
+### 📋 Gestión de alquileres
+![Rental](https://images.unsplash.com/photo-1550355291-bbee04a92027?q=80&w=1200&auto=format&fit=crop)
+
+### 👥 Administración de clientes
+![Users](https://images.unsplash.com/photo-1521737604893-d14cc237f11d?q=80&w=1200&auto=format&fit=crop)
+
+### 📊 Panel administrativo
+![Admin](https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=1200&auto=format&fit=crop)
+
+### 📅 Contratos de renta
+![Contracts](https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?q=80&w=1200&auto=format&fit=crop)
+
+### ⚙️ Configuración del sistema
+![Settings](https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?q=80&w=1200&auto=format&fit=crop)
+
+</div>
+
+---
+
+# 🧠 Objetivos del proyecto
+
+## 🎯 Aprendizaje y administración
+
+- Desarrollo de aplicaciones Java
+- Gestión de renta vehicular
+- Bases de datos relacionales
+- CRUD administrativos
+- Sistemas de autenticación
+- Arquitectura MVC
+- Automatización de alquileres
+
+---
+
+# 🚧 Roadmap
+
+## 🔮 Próximas mejoras
+
+- 📱 Aplicación móvil
+- ☁️ Infraestructura cloud
+- 💳 Integración de pagos
+- 🤖 Recomendaciones inteligentes
+- 🌐 API REST moderna
+- 🔔 Notificaciones en tiempo real
+- 📍 Seguimiento GPS de vehículos
+
+---
+
+# 🤝 Contribuciones
+
+Las contribuciones son bienvenidas ❤️
+
+## Cómo contribuir
+
+1. Fork del proyecto
+
+```bash
+git checkout -b feature/nueva-funcionalidad
+```
+
+2. Commit
+
+```bash
+git commit -m "✨ Nueva funcionalidad"
+```
+
+3. Push
+
+```bash
+git push origin feature/nueva-funcionalidad
+```
+
+4. Pull Request 🚀
+
+---
+
+# 👨‍💻 Desarrollador
+
+<div align="center">
+
+## Isai Reyes — Java Developer
+
+Desarrollador apasionado por sistemas administrativos, aplicaciones Java y plataformas inteligentes 🚀
+
+</div>
+
+---
+
+# 🌟 Apoya el proyecto
+
+⭐ Dale una estrella  
+🍴 Haz fork  
+📢 Comparte el proyecto
+
+---
+
+# 📜 Licencia
+
+Proyecto open source orientado al aprendizaje y administración de sistemas de renta de vehículos.
+
+---
+
+<div align="center">
+
+### 🚗 Car Rental Management System — administración inteligente de alquiler de vehículos 🚀
+
+</div>
